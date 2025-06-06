@@ -1,7 +1,3 @@
-Here's a clean and helpful `README.md` tailored to your project, assuming you're using [`uv`](https://github.com/astral-sh/uv) for dependency management:
-
----
-
 ## 🧿 Eye-Nose Controlled Screen Switcher
 
 Control your mouse across multiple screens using just your face!
@@ -90,13 +86,3 @@ eyeball_tracking/
 * Enable **snapshot recording** from the Photo Booth
 * Add **debounce smoothing** between screens
 * Auto-minimize or hide Photo Booth until triggered
-
----
-
-### 📃 License
-
-MIT License
-
----
-
-Let me know if you'd like this exported to a file or customized for GitHub (badges, CI steps, etc.).
