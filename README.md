@@ -86,3 +86,4 @@ eyeball_tracking/
 * Enable **snapshot recording** from the Photo Booth
 * Add **debounce smoothing** between screens
 * Auto-minimize or hide Photo Booth until triggered
+* Build a mac/windows app, largely increase accessibility.
