@@ -1,7 +1,6 @@
-# save_as_get_screen_size.py
-import pyautogui
+from screeninfo import get_monitors
 
-# This gets the size of the PRIMARY monitor
-width, height = pyautogui.size()
-
-print(f"Primary screen size: Width={width}, Height={height}")
+monitors = get_monitors()
+print(f"Detected {len(monitors)} screen(s):")
+for i, m in enumerate(monitors):
+    print(f"Screen {i}: x={m.x}, y={m.y}, width={m.width}, height={m.height}")
